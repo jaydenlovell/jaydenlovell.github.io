@@ -4,6 +4,7 @@ body {
     background-size: 200% 200%;
     animation: gradientAnimation 10s linear infinite alternate; /* Use "alternate" to reverse the animation */
     color: aliceblue;
+    position: relative
   }
   
   /* Keyframes for animation to make the gradient move */
