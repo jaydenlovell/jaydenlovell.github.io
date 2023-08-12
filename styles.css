@@ -154,4 +154,15 @@ body {
   width: 50px;
 }
 
-
+.list {
+  display:grid;
+  font-size: 30px;
+  margin: auto;
+  grid-template-areas: 'space listblock space';
+}
+.list-block{
+  grid-area:listblock
+}
+.space{
+  grid-area:space
+}
