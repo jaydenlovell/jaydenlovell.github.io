@@ -159,16 +159,23 @@ body {
   display:grid;
   font-size: 30px;
   margin: auto;
-  grid-template-areas: 'space listblock space';
+  grid-template-areas: 'space listblock space2';
 }
 .list-block{
-  grid-area:listblock
+  grid-area:listblock;
+  background-color:rgba(100, 148, 237, 0.514);
+  margin-left: 25%;
+  margin-right: 25%;
 }
 .space{
   grid-area:space
 }
 
-.social-media{
-  position:sticky;
+.space2{
+  grid-area:space2
+}
+
+div.social-media{
+  position:-webkit-sticky;
   top: 50
 }
