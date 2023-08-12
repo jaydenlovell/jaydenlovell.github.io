@@ -166,3 +166,8 @@ body {
 .space{
   grid-area:space
 }
+
+.social-media{
+  position:sticky;
+  top: 50
+}
