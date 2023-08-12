@@ -164,8 +164,8 @@ body {
 .list-block{
   grid-area:listblock;
   background-color:rgba(100, 148, 237, 0.514);
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 .space{
   grid-area:space
