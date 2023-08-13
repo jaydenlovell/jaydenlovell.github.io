@@ -1,5 +1,5 @@
+// Define the functions globally
 let slideIndex = 1;
-showSlides(slideIndex);
 
 function plusSlides(n) {
   showSlides((slideIndex += n));
@@ -29,4 +29,10 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
-  
+document.addEventListener("DOMContentLoaded", function() {
+  showSlides(slideIndex);
+
+  setInterval(function() {
+    plusSlides(1);
+  }, 3000);
+});
