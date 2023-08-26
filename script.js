@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function questionButton() {
   const responses = [
-    "It is certain	Reply hazy, try again",
+    "It is certain",	"Reply hazy, try again",
     "Don’t count on it",
     "It is decidedly so",
     "Ask again later	My reply is no",
@@ -57,5 +57,13 @@ function questionButton() {
     "Outlook good",
     "Yes",
     "Signs point to yes",
+    "bru",
+    "yeet",
+    "That depends, are you hot?",
+    
   ];
+
+
+let selectedResponse = Math.floor(Math.random() * responses.length) ;
+document.getElementById("response").innerHTML = responses[selectedResponse]
 }
