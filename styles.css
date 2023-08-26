@@ -176,8 +176,18 @@ body {
   grid-area:space2
 }
 
-div.social-media{
-  position:sticky;
+div.social-media {
+  position: sticky;
   top: 10px;
   left: 10px;
+  background-color: rgba(210, 180, 140, 0.534);
+  margin-bottom: 10px;
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
+
+.social-media-link {
+  /* You can remove the margin-left and margin-right properties */
+}
+
